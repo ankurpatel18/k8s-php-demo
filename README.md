@@ -3,8 +3,11 @@ Set up a PHP in docker and deploy using k8s in minikube.
 
 ##  prerequisite
 minikube
+
 kuberctl
+
 docker
+
 docker-compose
 
 ## Start Minikube
