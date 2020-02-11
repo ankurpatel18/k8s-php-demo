@@ -1,0 +1,11 @@
+version: '2'
+services:
+  website:
+    container_name: phpcontainer
+    image: my_php:v1
+    build:
+      context: ./
+    volumes:
+      - /Volumes/AnkurData/phptest/:/var/www/html/
+    ports:
+      - 8000:80
